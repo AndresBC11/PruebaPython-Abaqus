@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Web</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        #contenedor {
+            width: 95%;
+            max-width: 1200px;
+            height: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="contenedor">
+        <canvas id="graficoPesos"></canvas>
+    </div>
+
+    <div id="contenedor2">
+        <canvas id="graficoPortafolio"></canvas>
+    </div>
+
+    <script src="{% static 'portafolio/graficador.js' %}" defer></script>
+
+
+</body>
+</html>

@@ -81,6 +81,12 @@ http://127.0.0.1:8000/
 ```
 Al entrar serás redigirido a una URL con fechas de inicio/fin y un portafolio por defecto. El rango de fechas es [15-02-2022,16-02-2023], con opción de "Portafolio 1" y "Portafolio 2"
 
+## API
+La API se encuentra en 
+localhost:8000/api/pesos-activos/?fecha_inicio=1900-01-01&fecha_fin=2100-02-17&portafolio=Portafolio 1 
+localhost:8000/api/valor-historico/?fecha_inicio=1900-01-01&fecha_fin=2100-02-17&portafolio=Portafolio 1 
+con fechas y portafolios editables por supuesto.
+
 ## Flujo de ejecución
 
 1. Clonar el repositorio.

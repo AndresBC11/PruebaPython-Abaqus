@@ -55,13 +55,13 @@ python manage.py migrate
 Una vez creada la base de datos, carga el archivo `.xlsx` utilizando el comando correspondiente del proyecto.
 
 ```bash
-python manage.py cargar_excel <ruta_del_archivo.xlsx>
+python manage.py importar_xlsx <ruta archivo.xlsx>
 ```
 
 **Ejemplo:**
 
 ```bash
-python manage.py cargar_excel datos.xlsx
+python manage.py importar_xlsx datos.xlsx
 ```
 
 > Reemplaza `datos.xlsx` por la ruta del archivo que deseas importar.
